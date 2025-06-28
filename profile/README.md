@@ -98,6 +98,19 @@
 <br/>
 <br/>
 
+## 👥 팀원 및 역할 소개
+| 프로필 | 이름 | 주요 역할 및 기여 내용 |
+|--------|------|----------------------|
+| <img src="https://avatars.githubusercontent.com/u/108103346?v=4" width="100" /> | **이은비**<br/>[@silverain02](https://github.com/silverain02) | **팀장 · 음성 챗봇 리드**<br/>- 프로젝트 기획 총괄 및 워크플로우 설계<br/>- 음성 입력 기반 AI 요금제 챗봇 구현<br/>- LangChain 기반 대화 흐름 설계 및 상태 관리<br/>- 음성 인식 처리 로직 및 UI 컴포넌트 구성<br/>- 요금제 추천 흐름 설계 및 테스트 |
+| <img src="https://avatars.githubusercontent.com/u/88071251?v=4" width="100" /> | **박은서**<br/>[@arty0928](https://github.com/arty0928) | **풀스택 · 근거리 통신 & 공유 시스템 리드**<br/>- 서비스 전체 워크플로우 설계<br/>- 실시간 위치 공유 시스템 및 Node.js 서버 구현 <br/>- ERD 설계 기반 Prisma ORM으로 DB 스키마 및 관계형 모델링 구축<br/>- Kakao OAuth2 사용자 상태 Zustand 전역 관리<br/>- 위치 기반 사용자 정보 수집 및 클릭 이벤트 처리 로직 구현<br/>- 성향 테스트 제출 및 레벨업 시스템 API 구현<br/>- 공유 URL 내 userId AES 암호화 및 CryptoJS 기반 보안 처리 및 OG 메타 태그 동적 설정<br/>- 보상 시스템 로직 설계 및 클릭 이벤트 연동<br/>- 테스트 홈·결과 페이지, Nearby 위치 UI |
+| <img src="https://avatars.githubusercontent.com/u/198835896?v=4" width="100" /> | **박희준**<br/>[@heejun8](https://github.com/heejun8) | **풀스택 · 요금제 시각화 및 추천 시스템**<br/>- Chart.js 기반 요금제 비교 시각화 구현<br/>- 사용자의 현재 요금제와 추천 요금제 시각적 비교 인터페이스 개발<br/>- 요금제 상세 정보 페이지 및 필터·정렬 기능 구현<br/>- 요금제 리스트 Pagination 및 Lazy Loading 처리<br/>- 추천 요금제 데이터 가공 및 백엔드 API 연동 |
+| <img src="https://avatars.githubusercontent.com/u/195983909?v=4" width="100" /> | **안민지**<br/>[@minji-38](https://github.com/minji-38) | **풀스택 · 밈 테스트 UI 및 콘텐츠 리드**<br/>- 밈 테스트 디자인 총괄 및 문항 콘텐츠 제작<br/>- 문항 설계 및 결과 유형 매칭 로직 구현<br/>- 성향 테스트 결과 페이지, 마이페이지 UI 및 애니메이션 적용<br/>- 마이페이지 모달 및 공통 햄버거 메뉴 구현 |
+| <img src="https://avatars.githubusercontent.com/u/55499429?v=4" width="100" /> | **정다희**<br/>[@alotofhee](https://github.com/alotofhee) | **풀스택 · AI 챗봇 플로우 & 인증 시스템 설계**<br/>- ERD 설계 및 Swagger API 문서 작성<br/>- Next.js `middleware.ts` 기반 인증 라우팅 구현<br/>- 로그인 여부에 따라 페이지 접근 제한 및 리디렉션 처리<br/>- 랜딩, 온보딩 페이지 UI 및 인터랙션 구현<br/>- AI 챗봇 단계별 로드맵 모달 UI 및 흐름 제어 로직 구현 |
+| <img src="https://avatars.githubusercontent.com/u/127181459?v=4" width="100" /> | **허준호**<br/>[@gichulLimitLess](https://github.com/gichulLimitLess) | **풀스택 · AI 챗봇 & 요금제 추천 시스템 리드**<br/>- OpenAI 연동 챗봇 대화 흐름 설계 및 질문 템플릿 구성<br/>- 추천 요금제 응답 JSON 파싱 및 카드형 UI 렌더링 처리<br/>- 자연스러운 모드 / 정확한 모드 전환 로직 구현<br/>- 요금제 추천 시스템 API 통합 및 응답 최적화<br/>- 사용자 챗봇 대화 기록 저장 및 AI 요약 기능 구현 |
+
+
+<br/>
+<br/>
 
 ## 🛠️ 시스템 아키텍쳐
 <img width="1432" alt="image" src="https://github.com/user-attachments/assets/39333b56-7eb0-412d-98b1-b2e81d41f980" />
@@ -120,45 +133,5 @@ npm run dev
 
 <br/>
 <br/>
-
-
-
-## 👥 팀원 및 역할 소개
-
-
-<table align="center">
-  <tr>
-    <td align="center"><b>이은비</b></td>
-    <td align="center"><b>박은서</b></td>
-    <td align="center"><b>박희준</b></td>
-    <td align="center"><b>안민지</b></td>
-    <td align="center"><b>정다희</b></td>
-    <td align="center"><b>허준호</b></td>
-  </tr>
-  <tr>
-    <td align="center">
-      <a href="https://github.com/silverain02"><img src="https://avatars.githubusercontent.com/u/108103346?v=4" width="120" height="120"/></a>
-    </td>
-    <td align="center">
-      <a href="https://github.com/arty0928"><img src="https://avatars.githubusercontent.com/u/88071251?v=4" width="120" height="120"/></a>
-    </td>
-    <td align="center">
-      <a href="https://github.com/heejun8"><img src="https://avatars.githubusercontent.com/u/198835896?v=4" width="120" height="120"/></a>
-    </td>
-    <td align="center">
-      <a href="https://github.com/minji-38"><img src="https://avatars.githubusercontent.com/u/195983909?v=4" width="120" height="120"/></a>
-    <td align="center">
-      <a href="https://github.com/alotofhee"><img src="https://avatars.githubusercontent.com/u/55499429?v=4" width="120" height="120"/></a>
-    <td align="center">
-      <a href="https://github.com/gichulLimitLess"><img src="https://avatars.githubusercontent.com/u/127181459?v=4" width="120" height="120"/></a>
-    </td>
-  </tr>
-  <tr>
-  <td align="center">팀장<br>음성챗봇</td>
-    <td align="center">풀스택<br>주변 친구 찾기</td>
-    <td align="center">풀스택<br>요금제 시각화</td>
-    <td align="center">풀스택, 디자인<br>밈테스트</td>
-    <td align="center">풀스택<br>챗봇</td>
-    <td align="center">풀스택, AI<br>챗봇</td>
-  </tr>
-</table>
+---
+**Team YouGodIT** | LG U+ URECA 프론트엔드 개발자 과정 2기 종합프로젝트 1조
